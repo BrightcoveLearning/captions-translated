@@ -1,0 +1,114 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.922 align:middle line:90%
+[MUSIC PLAYING]
+
+00:00:02.922 --> 00:00:05.850 align:middle line:90%
+
+
+00:00:05.850 --> 00:00:09.370 align:middle line:84%
+Hi, I'm Matt Boles, a learning
+specialist with Brightcove.
+
+00:00:09.370 --> 00:00:12.210 align:middle line:84%
+In this Developer
+Basics video, we are
+
+00:00:12.210 --> 00:00:15.420 align:middle line:90%
+going to generate player code.
+
+00:00:15.420 --> 00:00:17.940 align:middle line:84%
+The first thing needed
+to do player development
+
+00:00:17.940 --> 00:00:20.130 align:middle line:90%
+is obviously a player.
+
+00:00:20.130 --> 00:00:21.690 align:middle line:90%
+So let's create one.
+
+00:00:21.690 --> 00:00:24.330 align:middle line:84%
+In Studio, select
+the Players module.
+
+00:00:24.330 --> 00:00:26.870 align:middle line:90%
+
+
+00:00:26.870 --> 00:00:30.700 align:middle line:90%
+Click on the New Player button.
+
+00:00:30.700 --> 00:00:33.500 align:middle line:90%
+Then, give it a name.
+
+00:00:33.500 --> 00:00:35.890 align:middle line:90%
+And finally, click Save.
+
+00:00:35.890 --> 00:00:38.230 align:middle line:84%
+That's all there is
+to creating a player.
+
+00:00:38.230 --> 00:00:42.070 align:middle line:84%
+Remember this player can
+be used to play any video.
+
+00:00:42.070 --> 00:00:45.460 align:middle line:84%
+It is not tied to
+one specific video.
+
+00:00:45.460 --> 00:00:48.370 align:middle line:84%
+The player-to-video
+ratio is not one to one.
+
+00:00:48.370 --> 00:00:50.590 align:middle line:90%
+It is one to many.
+
+00:00:50.590 --> 00:00:52.780 align:middle line:84%
+Now that we have a
+player, we want to publish
+
+00:00:52.780 --> 00:00:55.360 align:middle line:90%
+a video using that player.
+
+00:00:55.360 --> 00:00:58.210 align:middle line:90%
+Go to the Media module.
+
+00:00:58.210 --> 00:00:59.635 align:middle line:90%
+Pick a video to publish.
+
+00:00:59.635 --> 00:01:02.240 align:middle line:90%
+
+
+00:01:02.240 --> 00:01:08.160 align:middle line:84%
+Click the Publish and Embed
+button then Web player.
+
+00:01:08.160 --> 00:01:11.940 align:middle line:90%
+Choose the player just created.
+
+00:01:11.940 --> 00:01:13.970 align:middle line:84%
+Click Advanced,
+which is the best
+
+00:01:13.970 --> 00:01:16.730 align:middle line:84%
+selection for the
+implementation code
+
+00:01:16.730 --> 00:01:19.130 align:middle line:84%
+when doing development
+with a player.
+
+00:01:19.130 --> 00:01:22.550 align:middle line:84%
+I'm going to make
+it a fixed size.
+
+00:01:22.550 --> 00:01:25.990 align:middle line:90%
+Enter the desired width.
+
+00:01:25.990 --> 00:01:29.290 align:middle line:90%
+Then, copy the Advanced code.
+
+00:01:29.290 --> 00:01:32.970 align:middle line:84%
+And now we have a player
+we can write code against.
+
+00:01:32.970 --> 00:01:35.458 align:middle line:90%
