@@ -1,0 +1,203 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.760 align:middle line:90%
+[MUSIC PLAYING]
+
+00:00:02.760 --> 00:00:05.520 align:middle line:90%
+
+
+00:00:05.520 --> 00:00:07.770 align:middle line:84%
+Before creating a custom
+plugin, you should
+
+00:00:07.770 --> 00:00:09.960 align:middle line:90%
+know why you want to do that.
+
+00:00:09.960 --> 00:00:12.510 align:middle line:84%
+The reasons are many,
+but two obvious ones will
+
+00:00:12.510 --> 00:00:15.400 align:middle line:90%
+be discussed in this video.
+
+00:00:15.400 --> 00:00:17.400 align:middle line:84%
+First, you want to
+add some functionality
+
+00:00:17.400 --> 00:00:19.380 align:middle line:84%
+to multiple players
+without having
+
+00:00:19.380 --> 00:00:24.390 align:middle line:84%
+to copy the same code again and
+again into different locations.
+
+00:00:24.390 --> 00:00:26.640 align:middle line:84%
+The problem with having the
+code in multiple locations
+
+00:00:26.640 --> 00:00:30.390 align:middle line:84%
+is, of course, you have to
+update it in multiple locations
+
+00:00:30.390 --> 00:00:33.030 align:middle line:84%
+if you want or
+need to change it.
+
+00:00:33.030 --> 00:00:37.440 align:middle line:84%
+Creating the code as a plugin
+will spare you this pain.
+
+00:00:37.440 --> 00:00:40.080 align:middle line:84%
+Another great reason for
+creating a custom log-in--
+
+00:00:40.080 --> 00:00:42.030 align:middle line:84%
+and this includes if
+you are only going
+
+00:00:42.030 --> 00:00:43.860 align:middle line:90%
+to use it in one location--
+
+00:00:43.860 --> 00:00:47.790 align:middle line:84%
+is a custom code can
+become part of the player.
+
+00:00:47.790 --> 00:00:50.820 align:middle line:84%
+This means you don't have
+to have the custom CSS
+
+00:00:50.820 --> 00:00:54.570 align:middle line:84%
+and JavaScript on
+the actual HTML page
+
+00:00:54.570 --> 00:00:57.120 align:middle line:90%
+where the player is used.
+
+00:00:57.120 --> 00:01:00.330 align:middle line:84%
+In Studio, you can associate
+the code with the player.
+
+00:01:00.330 --> 00:01:04.769 align:middle line:84%
+And then, it becomes
+actually part of the player.
+
+00:01:04.769 --> 00:01:07.530 align:middle line:84%
+Once you do this, just
+by using the player,
+
+00:01:07.530 --> 00:01:09.960 align:middle line:84%
+you're gaining the
+enhanced functionality
+
+00:01:09.960 --> 00:01:11.835 align:middle line:90%
+the custom plugin provides.
+
+00:01:11.835 --> 00:01:14.750 align:middle line:90%
+
+
+00:01:14.750 --> 00:01:17.800 align:middle line:84%
+Now that you know you can't
+live without custom plugins,
+
+00:01:17.800 --> 00:01:19.990 align:middle line:90%
+so how do you build them?
+
+00:01:19.990 --> 00:01:22.390 align:middle line:84%
+The following
+high-level steps present
+
+00:01:22.390 --> 00:01:27.610 align:middle line:84%
+a best-practice approach to
+creating a custom plugin.
+
+00:01:27.610 --> 00:01:31.210 align:middle line:84%
+1, write the code for the
+enhanced functionality
+
+00:01:31.210 --> 00:01:34.360 align:middle line:90%
+in one HTML page.
+
+00:01:34.360 --> 00:01:37.780 align:middle line:84%
+You will see this is the hard
+part of creating a custom
+
+00:01:37.780 --> 00:01:40.570 align:middle line:84%
+plugin since the
+process of converting
+
+00:01:40.570 --> 00:01:45.820 align:middle line:84%
+working code to a plugin
+is quite straightforward.
+
+00:01:45.820 --> 00:01:50.890 align:middle line:84%
+2, create a new file that
+contains just the CSS.
+
+00:01:50.890 --> 00:01:53.320 align:middle line:84%
+This simply means
+copying the CSS
+
+00:01:53.320 --> 00:01:56.320 align:middle line:84%
+from the working code
+to a separate file that
+
+00:01:56.320 --> 00:02:00.400 align:middle line:90%
+has a dot CSS extension.
+
+00:02:00.400 --> 00:02:05.410 align:middle line:84%
+3, create a new file that
+contains the JavaScript.
+
+00:02:05.410 --> 00:02:09.370 align:middle line:84%
+This process is much like
+creating the CSS file,
+
+00:02:09.370 --> 00:02:12.850 align:middle line:84%
+but there is a change
+that needs to be made.
+
+00:02:12.850 --> 00:02:16.360 align:middle line:84%
+First, copy all the JavaScript
+between the script tags,
+
+00:02:16.360 --> 00:02:19.150 align:middle line:90%
+and paste it into another file.
+
+00:02:19.150 --> 00:02:23.410 align:middle line:84%
+This file should have
+a dot JS extension.
+
+00:02:23.410 --> 00:02:25.480 align:middle line:84%
+Then, alter the
+line of code that
+
+00:02:25.480 --> 00:02:29.710 align:middle line:84%
+uses a get player method to
+code that defines the plugin.
+
+00:02:29.710 --> 00:02:32.750 align:middle line:90%
+
+
+00:02:32.750 --> 00:02:40.010 align:middle line:84%
+4, use the plugin by linking to
+the CSS and JavaScript files.
+
+00:02:40.010 --> 00:02:46.240 align:middle line:90%
+
+
+00:02:46.240 --> 00:02:49.345 align:middle line:84%
+Then, call the name given
+to the custom plugin.
+
+00:02:49.345 --> 00:02:51.990 align:middle line:90%
+
+
+00:02:51.990 --> 00:02:52.690 align:middle line:90%
+That's it.
+
+00:02:52.690 --> 00:02:56.210 align:middle line:84%
+You're now ready to build
+your own custom Plugins.
+
+00:02:56.210 --> 00:02:59.000 align:middle line:90%

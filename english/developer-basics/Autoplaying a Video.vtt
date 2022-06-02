@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.952 align:middle line:90%
+[MUSIC PLAYING]
+
+00:00:02.952 --> 00:00:05.910 align:middle line:90%
+
+
+00:00:05.910 --> 00:00:09.870 align:middle line:84%
+Hi, I'm Matt Boles, alerting
+specialist with Brightcove.
+
+00:00:09.870 --> 00:00:12.960 align:middle line:84%
+In this developer
+basics video, we're
+
+00:00:12.960 --> 00:00:18.040 align:middle line:84%
+going to write code
+to autoplay a video.
+
+00:00:18.040 --> 00:00:21.280 align:middle line:84%
+It might seem we could use
+the play method right here
+
+00:00:21.280 --> 00:00:22.870 align:middle line:90%
+and the video would play.
+
+00:00:22.870 --> 00:00:25.810 align:middle line:84%
+Actually, this might
+work, but we can't write
+
+00:00:25.810 --> 00:00:28.340 align:middle line:90%
+code that doesn't always work.
+
+00:00:28.340 --> 00:00:31.690 align:middle line:84%
+The reason this won't work is
+we would be asking for problems
+
+00:00:31.690 --> 00:00:33.130 align:middle line:90%
+with race conditions.
+
+00:00:33.130 --> 00:00:36.850 align:middle line:84%
+Specifically, we are betting
+the video is in the player
+
+00:00:36.850 --> 00:00:41.110 align:middle line:84%
+and ready to play before
+the play method is executed.
+
+00:00:41.110 --> 00:00:44.180 align:middle line:90%
+We just can't take that chance.
+
+00:00:44.180 --> 00:00:46.400 align:middle line:84%
+So two issues need
+to be addressed.
+
+00:00:46.400 --> 00:00:49.300 align:middle line:84%
+They are, one,
+remedy the situation
+
+00:00:49.300 --> 00:00:54.040 align:middle line:84%
+of a video with an audio
+track won't autoplay.
+
+00:00:54.040 --> 00:00:56.980 align:middle line:84%
+Number two, be sure
+the video is loaded
+
+00:00:56.980 --> 00:01:01.930 align:middle line:84%
+and ready to be played before
+calling the play method.
+
+00:01:01.930 --> 00:01:05.770 align:middle line:84%
+The muted method is used to be
+sure the audio track will not
+
+00:01:05.770 --> 00:01:10.930 align:middle line:84%
+play, and thus allowing
+the video to autoplay.
+
+00:01:10.930 --> 00:01:14.110 align:middle line:84%
+To be sure the video is
+loaded and ready to play
+
+00:01:14.110 --> 00:01:18.850 align:middle line:84%
+in the player, the loaded
+metadata event is used.
+
+00:01:18.850 --> 00:01:21.760 align:middle line:84%
+The player will wait
+until the loaded metadata
+
+00:01:21.760 --> 00:01:24.220 align:middle line:84%
+event is dispatched,
+which ensures
+
+00:01:24.220 --> 00:01:26.230 align:middle line:90%
+the video is ready to play.
+
+00:01:26.230 --> 00:01:29.740 align:middle line:84%
+The on method is used to
+add an event listener,
+
+00:01:29.740 --> 00:01:34.000 align:middle line:84%
+and an anonymous event
+handler function is coded.
+
+00:01:34.000 --> 00:01:37.510 align:middle line:84%
+Now, finally, the play
+method can be used,
+
+00:01:37.510 --> 00:01:39.050 align:middle line:90%
+and we know it will work.
+
+00:01:39.050 --> 00:01:40.120 align:middle line:90%
+So let's test it.
+
+00:01:40.120 --> 00:01:45.280 align:middle line:90%
+
+
+00:01:45.280 --> 00:01:46.270 align:middle line:90%
+Great, it works.
+
+00:01:46.270 --> 00:01:49.000 align:middle line:90%
+
+
+00:01:49.000 --> 00:01:51.670 align:middle line:84%
+It is vital to
+understand the player
+
+00:01:51.670 --> 00:01:54.560 align:middle line:84%
+and video are
+different entities.
+
+00:01:54.560 --> 00:01:56.950 align:middle line:84%
+We must consider
+when both of loaded
+
+00:01:56.950 --> 00:01:59.640 align:middle line:90%
+and are ready to be used.
+
+00:01:59.640 --> 00:02:02.000 align:middle line:90%
