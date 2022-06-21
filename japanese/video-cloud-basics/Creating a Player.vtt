@@ -1,0 +1,107 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.760 align:middle line:90%
+[MUSIC PLAYING]
+
+00:00:03.760 --> 00:00:05.640 align:middle line:90%
+
+
+00:00:05.640 --> 00:00:08.650 align:middle line:84%
+Hi, I'm Bob Bailey, a learning
+specialist with Brightcove.
+
+00:00:08.650 --> 00:00:12.270 align:middle line:84%
+In this video, we'll see how
+to create a Brightcove player.
+
+00:00:12.270 --> 00:00:14.340 align:middle line:84%
+The Players module
+provides an easy to use
+
+00:00:14.340 --> 00:00:17.850 align:middle line:84%
+interface for creating
+and configuring players.
+
+00:00:17.850 --> 00:00:20.580 align:middle line:84%
+To access the Players
+module, select Players
+
+00:00:20.580 --> 00:00:23.480 align:middle line:90%
+from the navigation menu.
+
+00:00:23.480 --> 00:00:25.070 align:middle line:84%
+The body of the
+page will display
+
+00:00:25.070 --> 00:00:27.110 align:middle line:90%
+all the players in the account.
+
+00:00:27.110 --> 00:00:30.350 align:middle line:84%
+By default, all accounts will
+have a Brightcove default
+
+00:00:30.350 --> 00:00:32.299 align:middle line:90%
+player created.
+
+00:00:32.299 --> 00:00:35.150 align:middle line:84%
+A lot of times, I'll use
+this player for testing.
+
+00:00:35.150 --> 00:00:37.860 align:middle line:84%
+You're free to use and
+style this default player.
+
+00:00:37.860 --> 00:00:41.690 align:middle line:84%
+But in this video, I want to
+create my own player to use.
+
+00:00:41.690 --> 00:00:45.080 align:middle line:84%
+To create a player,
+I'll click on Add player
+
+00:00:45.080 --> 00:00:50.610 align:middle line:84%
+and then give the player a
+name and short description.
+
+00:00:50.610 --> 00:00:53.280 align:middle line:84%
+It's helpful to add
+a short description.
+
+00:00:53.280 --> 00:00:55.082 align:middle line:84%
+As you create
+additional players,
+
+00:00:55.082 --> 00:00:56.790 align:middle line:84%
+the description is a
+good way to indicate
+
+00:00:56.790 --> 00:00:59.550 align:middle line:84%
+where the player is used
+or even what features
+
+00:00:59.550 --> 00:01:01.730 align:middle line:90%
+are enabled for the player.
+
+00:01:01.730 --> 00:01:04.440 align:middle line:90%
+When I'm done, I'll click Save.
+
+00:01:04.440 --> 00:01:06.960 align:middle line:84%
+Clicking on a player name will
+open the Player Properties
+
+00:01:06.960 --> 00:01:09.900 align:middle line:84%
+page where you can see
+all the player properties.
+
+00:01:09.900 --> 00:01:12.800 align:middle line:90%
+
+
+00:01:12.800 --> 00:01:14.540 align:middle line:84%
+To return to the
+list of players,
+
+00:01:14.540 --> 00:01:18.850 align:middle line:84%
+click Back to Players in the
+top left corner of the page.
+
+00:01:18.850 --> 00:01:22.000 align:middle line:90%

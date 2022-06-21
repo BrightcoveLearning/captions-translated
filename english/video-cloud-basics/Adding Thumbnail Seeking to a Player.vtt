@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.200 align:middle line:90%
+
+
+00:00:01.200 --> 00:00:04.710 align:middle line:84%
+Thumbnail seeking can help
+improve the viewer experience
+
+00:00:04.710 --> 00:00:08.670 align:middle line:84%
+by displaying video thumbnails
+over the player progress bar.
+
+00:00:08.670 --> 00:00:10.800 align:middle line:84%
+In this video, we'll see
+how to add thumbnails
+
+00:00:10.800 --> 00:00:12.390 align:middle line:90%
+seeking to a Brightcove player.
+
+00:00:12.390 --> 00:00:18.870 align:middle line:90%
+
+
+00:00:18.870 --> 00:00:22.440 align:middle line:84%
+Let's start by
+looking at an example.
+
+00:00:22.440 --> 00:00:24.960 align:middle line:84%
+With thumbnail seeking
+enabled, notice
+
+00:00:24.960 --> 00:00:27.810 align:middle line:84%
+when I hover over the
+progress bar thumbnail images
+
+00:00:27.810 --> 00:00:29.970 align:middle line:84%
+will appear showing a
+preview of the video
+
+00:00:29.970 --> 00:00:32.270 align:middle line:90%
+at that point in time.
+
+00:00:32.270 --> 00:00:34.370 align:middle line:84%
+This could be helpful
+for longer videos
+
+00:00:34.370 --> 00:00:37.610 align:middle line:84%
+so viewers can preview a video
+and jump to a specific point
+
+00:00:37.610 --> 00:00:39.200 align:middle line:90%
+in the video.
+
+00:00:39.200 --> 00:00:42.780 align:middle line:90%
+Let's see how this is done.
+
+00:00:42.780 --> 00:00:44.660 align:middle line:84%
+I'm going to open
+the player's module,
+
+00:00:44.660 --> 00:00:47.760 align:middle line:90%
+and then click on a player name.
+
+00:00:47.760 --> 00:00:51.220 align:middle line:90%
+I'm going to click on Controls.
+
+00:00:51.220 --> 00:00:53.350 align:middle line:84%
+Check the Thumbnail
+Seeking option
+
+00:00:53.350 --> 00:00:56.020 align:middle line:84%
+to have video thumbnails
+appear as viewers hover
+
+00:00:56.020 --> 00:00:58.690 align:middle line:90%
+over the player progress bar.
+
+00:00:58.690 --> 00:01:03.530 align:middle line:84%
+For new players you create, this
+option is enabled by default.
+
+00:01:03.530 --> 00:01:05.950 align:middle line:84%
+You will need to enable
+this option for any existing
+
+00:01:05.950 --> 00:01:07.390 align:middle line:90%
+players.
+
+00:01:07.390 --> 00:01:11.360 align:middle line:84%
+Remember to publish any
+changes made to players.
+
+00:01:11.360 --> 00:01:13.510 align:middle line:90%
+A couple of things to mention--
+
+00:01:13.510 --> 00:01:16.280 align:middle line:84%
+first, the images are
+generated dynamically
+
+00:01:16.280 --> 00:01:18.640 align:middle line:84%
+the first time the
+video is requested,
+
+00:01:18.640 --> 00:01:21.750 align:middle line:84%
+and then cached
+for repeat viewing.
+
+00:01:21.750 --> 00:01:25.650 align:middle line:84%
+Second, images are generated
+every 5 seconds for videos
+
+00:01:25.650 --> 00:01:29.220 align:middle line:84%
+less than one hour, and every
+10 seconds for videos greater
+
+00:01:29.220 --> 00:01:31.250 align:middle line:90%
+than an hour.
+
+00:01:31.250 --> 00:01:33.620 align:middle line:84%
+Finally, thumbnail
+seeking will only
+
+00:01:33.620 --> 00:01:35.780 align:middle line:84%
+work for videos that
+have been ingested using
+
+00:01:35.780 --> 00:01:38.720 align:middle line:90%
+a dynamic delivery profile.
+
+00:01:38.720 --> 00:01:40.700 align:middle line:84%
+In the Media module,
+videos that have
+
+00:01:40.700 --> 00:01:43.580 align:middle line:84%
+been ingested using a
+dynamic delivery profile
+
+00:01:43.580 --> 00:01:48.040 align:middle line:84%
+will display a green cloud
+icon next to the video name.
+
+00:01:48.040 --> 00:01:51.000 align:middle line:90%

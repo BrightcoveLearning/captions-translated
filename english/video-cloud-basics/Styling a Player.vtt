@@ -1,0 +1,119 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.479 align:middle line:90%
+[MUSIC PLAYING]
+
+00:00:03.479 --> 00:00:05.710 align:middle line:90%
+
+
+00:00:05.710 --> 00:00:06.210 align:middle line:90%
+Hi.
+
+00:00:06.210 --> 00:00:09.310 align:middle line:84%
+I'm Bob Bailey, a Learning
+Specialist with Brightcove.
+
+00:00:09.310 --> 00:00:11.610 align:middle line:84%
+In this video, we'll see
+how to do some basic styling
+
+00:00:11.610 --> 00:00:14.190 align:middle line:90%
+to a Brightcove player.
+
+00:00:14.190 --> 00:00:16.890 align:middle line:84%
+To style a player, up
+the Players module,
+
+00:00:16.890 --> 00:00:20.370 align:middle line:84%
+and then click on the player
+name you want to style.
+
+00:00:20.370 --> 00:00:22.080 align:middle line:84%
+All of the player
+properties will appear
+
+00:00:22.080 --> 00:00:24.440 align:middle line:90%
+in the left navigation menu.
+
+00:00:24.440 --> 00:00:27.560 align:middle line:90%
+I'm going to click on Styling.
+
+00:00:27.560 --> 00:00:29.450 align:middle line:84%
+As you make changes
+to the player,
+
+00:00:29.450 --> 00:00:31.370 align:middle line:84%
+they will be reflected
+in the preview player
+
+00:00:31.370 --> 00:00:33.190 align:middle line:90%
+here on the right.
+
+00:00:33.190 --> 00:00:36.700 align:middle line:84%
+I can choose to hide or show
+the title and description,
+
+00:00:36.700 --> 00:00:41.920 align:middle line:84%
+and configure the Play
+button shape and position.
+
+00:00:41.920 --> 00:00:44.700 align:middle line:84%
+You can also change
+the player colors.
+
+00:00:44.700 --> 00:00:47.070 align:middle line:84%
+The Play button color controls
+the color of the big Play
+
+00:00:47.070 --> 00:00:49.470 align:middle line:84%
+button, and the color of
+the progress bar that is
+
+00:00:49.470 --> 00:00:52.110 align:middle line:90%
+displayed as the video plays.
+
+00:00:52.110 --> 00:00:55.500 align:middle line:90%
+I'm going to set this to blue.
+
+00:00:55.500 --> 00:00:57.140 align:middle line:84%
+Notice the preview
+player has updated
+
+00:00:57.140 --> 00:01:00.750 align:middle line:90%
+to reflect the color change.
+
+00:01:00.750 --> 00:01:02.850 align:middle line:84%
+Once I'm happy with
+the player styling,
+
+00:01:02.850 --> 00:01:05.738 align:middle line:84%
+I'll publish the
+changes to the player.
+
+00:01:05.738 --> 00:01:08.280 align:middle line:84%
+It's important to keep in mind
+that whenever you make changes
+
+00:01:08.280 --> 00:01:10.950 align:middle line:84%
+to a player, the changes
+must be published
+
+00:01:10.950 --> 00:01:14.530 align:middle line:84%
+before they will appear out
+in your published players.
+
+00:01:14.530 --> 00:01:18.040 align:middle line:84%
+To do that, I'll click
+Publish and Embed, and then
+
+00:01:18.040 --> 00:01:20.350 align:middle line:90%
+Publish Changes.
+
+00:01:20.350 --> 00:01:22.960 align:middle line:84%
+After a brief delay, the
+changes will appear out
+
+00:01:22.960 --> 00:01:24.990 align:middle line:90%
+in Published Players.
+
+00:01:24.990 --> 00:01:29.000 align:middle line:90%

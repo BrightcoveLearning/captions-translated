@@ -1,0 +1,120 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.910 align:middle line:90%
+[MUSIC PLAYING]
+
+00:00:02.910 --> 00:00:05.820 align:middle line:90%
+
+
+00:00:05.820 --> 00:00:09.040 align:middle line:84%
+Hi, I'm Bob Bailey, a Learning
+Specialist with Brightcove.
+
+00:00:09.040 --> 00:00:11.250 align:middle line:84%
+In this video, we'll see
+how to determine which
+
+00:00:11.250 --> 00:00:13.980 align:middle line:90%
+videos have the most views.
+
+00:00:13.980 --> 00:00:16.020 align:middle line:84%
+The Performance report
+in the Analytics module
+
+00:00:16.020 --> 00:00:18.930 align:middle line:84%
+is used to view the
+number of video views.
+
+00:00:18.930 --> 00:00:23.070 align:middle line:84%
+A video view is counted as soon
+as the video begins playback.
+
+00:00:23.070 --> 00:00:26.280 align:middle line:84%
+Video views are not useful for
+determining how much of a video
+
+00:00:26.280 --> 00:00:27.840 align:middle line:90%
+a viewer watched.
+
+00:00:27.840 --> 00:00:30.051 align:middle line:84%
+The Engagement report
+is useful if you're
+
+00:00:30.051 --> 00:00:32.009 align:middle line:84%
+interested in determining
+how much of the video
+
+00:00:32.009 --> 00:00:34.260 align:middle line:90%
+is being watched.
+
+00:00:34.260 --> 00:00:37.080 align:middle line:84%
+Start by using the date selector
+in the upper right of the page
+
+00:00:37.080 --> 00:00:40.990 align:middle line:84%
+to select a date
+range for your report.
+
+00:00:40.990 --> 00:00:44.410 align:middle line:84%
+I'm going to select
+Last 30 days.
+
+00:00:44.410 --> 00:00:47.670 align:middle line:84%
+Next, I'll select
+the Video Dimension.
+
+00:00:47.670 --> 00:00:49.890 align:middle line:84%
+Click on any of the column
+headers to sort the data
+
+00:00:49.890 --> 00:00:51.760 align:middle line:90%
+by that column.
+
+00:00:51.760 --> 00:00:55.328 align:middle line:84%
+I'm going to sort
+by Video Views.
+
+00:00:55.328 --> 00:00:57.120 align:middle line:84%
+This is showing me the
+videos with the most
+
+00:00:57.120 --> 00:01:01.040 align:middle line:90%
+views for the past 30 days.
+
+00:01:01.040 --> 00:01:04.220 align:middle line:84%
+Use the search box to
+search for a specific video.
+
+00:01:04.220 --> 00:01:07.490 align:middle line:84%
+Video title, video
+ID, and reference ID
+
+00:01:07.490 --> 00:01:09.350 align:middle line:84%
+are common properties
+to search on,
+
+00:01:09.350 --> 00:01:12.650 align:middle line:84%
+but other properties
+can also be searched.
+
+00:01:12.650 --> 00:01:14.690 align:middle line:84%
+When searching for
+a specific video,
+
+00:01:14.690 --> 00:01:17.670 align:middle line:84%
+it will default to
+showing views by player.
+
+00:01:17.670 --> 00:01:20.150 align:middle line:84%
+You can also select
+other dimensions.
+
+00:01:20.150 --> 00:01:22.310 align:middle line:84%
+For example, I can
+see which countries
+
+00:01:22.310 --> 00:01:29.260 align:middle line:84%
+had the most views and the
+types of devices that were used.
+
+00:01:29.260 --> 00:01:33.000 align:middle line:90%
